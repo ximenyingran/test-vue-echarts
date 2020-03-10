@@ -6,13 +6,13 @@ import echarts from 'echarts'  // echarts图表
 // import 'echarts/theme/temp'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
-import bmap from 'vue-baidu-map'  // 百度地图
+import BaiduMap from 'vue-baidu-map'  // 百度地图
 import normalize from 'normalize.css'  // 样式
 
 Vue.prototype.$echarts = echarts
 Vue.config.productionTip = false
 Vue.use(ElementUI)
-Vue.use(bmap, {
+Vue.use(BaiduMap, {
   ak: 'xTzUd6pF3hm0S4r8vAFCefepb7HhKlMM'
 })
 Vue.use(normalize)
